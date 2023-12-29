@@ -4,9 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" c-fontent="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ToDo App</title>
+    <link rel="stylesheet" href="./css//main.css">
 </head>
 <body>
-    
+    <div class="container">
+      <div class="input">
+        <input placeholder="Enter Item ..." type="text" class="inputItem"/>
+        <div class="cross" onclick="emptyInput()">X</div>
+      </div>
+      <button  onclick="addItem()">Add Item</button>
+      <ul class="todo__items" onclick="removeItem(event)" ondblclick="updateTodoItem(event)">
+      </ul>
+      </div>
+    </div>
+    <script src="./js/ToDo.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 </html>
