@@ -1,0 +1,39 @@
+.nodes{
+    display: flex;
+    gap:30px
+}
+
+button{
+    background: rgb(84, 84, 196);
+    color: white;
+    padding: 10px 100px;
+}
+.notes__list_item{
+    padding: 10px;
+    background: rgb(233, 231, 231);
+    border-radius: 5px;
+}
+.nodes__sidebar{
+    display: flex;
+    flex-direction: column;
+    gap: 30px
+}
+.preview{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    height: 100%;
+}
+input,textarea:focus{
+    outline: none;
+}
+.notes__title,.notes__textArea{
+    border: none;
+}
+.notes__title{
+    height: 50px;
+}
+.notes__textArea{
+    height: 100vh;
+}
